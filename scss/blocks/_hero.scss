@@ -1,0 +1,94 @@
+.site-main {
+    background-image: url(../images/hero-bg.png);
+    background-size: contain;
+    width: 100%;
+    background-repeat: no-repeat;
+    height: 1740px;
+}
+.site-main2 {
+    background-image: url(../images/about_bg.png);
+    background-size: contain;
+    width: 100%;
+    background-repeat: no-repeat;
+   
+}
+
+.hero__title {
+    width: 500px;
+    // padding-left: 165px;
+    padding-top: 153px;
+    padding-bottom: 40px;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 56px;
+    letter-spacing: -2.5px;
+    color: var(--white--color);
+}
+.hero__title2 {
+    width: 500px;
+    // padding-left: 165px;
+    padding-top: 90px;
+    padding-bottom: 60px;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 56px;
+    letter-spacing: -2.5px;
+    color: var(--white--color);
+}
+
+.hero__text {
+    margin-left: 65px;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 25px;
+    width: 405px;
+    color: var(--white--color);
+}
+
+
+.hero__path{
+    display: flex;
+    align-items: center;
+    
+}
+.path2{
+    margin-left: 40px;
+    margin-top: 157px;
+}
+
+.path1{
+    position: absolute;
+    left: 0;
+}
+
+.hero__btn{
+    @include button;
+    margin-left: 60px;
+    margin-bottom: 152px;
+}
+.hero__btn:active{
+    @include button-active;
+    background-color: var(--text--color);
+    margin-left: 60px;
+    margin-bottom: 152px;
+    border: 3px solid;
+}
+
+
+
+// .hero__text::after{
+//     content:url(../images/Path\ 2.svg);
+//     display: block;
+   
+// }
+    
+    
+
+// .hero-section{
+//     background-image: url(../images/Path\ 2.svg),url(../images/Group\ 8\ Copy.svg);
+//     background-position: left calc(379px),left calc(335px);
+//     background-position: 0, 520px;
+//     width: 300px ,;
+//     background-size: contain;
+//     background-repeat: no-repeat;
+// }

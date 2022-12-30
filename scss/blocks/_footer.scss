@@ -1,0 +1,151 @@
+.footer {
+    margin-top: 1200px;
+    background-color: var(--col--color);
+    background-image: url(../images/footer-bg.png);
+    background-repeat: no-repeat;
+    background-position: right 0 bottom 0;
+}
+.footer2 {
+    margin-top: 160px;
+    background-color: var(--col--color);
+    background-image: url(../images/footer-bg.png);
+    background-repeat: no-repeat;
+    background-position: right 0 bottom 0;
+}
+
+.footer-section {
+    padding-top: 102px;
+    padding-bottom: 102px;
+    // padding-left: 165px;
+
+}
+
+.footer-title {
+    width: 415px;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 48px;
+    letter-spacing: -2.14286px;
+    color: var(--white--color);
+
+}
+
+.footer-btn {
+    display: flex;
+    gap: 18px;
+}
+
+.footer-itams {
+    display: flex;
+    align-items: center;
+    gap: 336px;
+}
+
+.f-btn {
+    padding: 8px 16px;
+    display: flex;
+
+    color: var(--col--color);
+    border: 0;
+    border-radius: 4px;
+    cursor: pointer;
+    text-align: left;
+}
+
+.f-btn2 {
+    margin-left: 11px;
+    display: flex;
+    flex-direction: column;
+
+    span {
+        font-weight: 700;
+        font-size: 10px;
+        line-height: 15px;
+        letter-spacing: -0.446429px;
+    }
+
+    strong {
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 24px;
+        letter-spacing: -0.892857px;
+    }
+
+}
+
+
+.footer-foot {
+    height: 96px;
+    background-color: var(--footer-bg);
+
+
+}
+
+.footer-inner {
+    // margin-top: 36px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.fixt {
+    width: 75%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+    top: 36px;
+    background-color: var(--white--color);
+}
+
+.footer__navbar {
+    margin-top: 36px;
+    display: flex;
+    align-items: center;
+    gap: 59px;
+
+}
+
+.footer__links{
+    margin-top: 36px;
+    cursor: pointer;
+    gap: 24px;
+}
+.footer__link{
+    margin-left: 24px;
+    
+}
+
+.mobl {
+    .gam {
+        display: none;
+    }
+}
+
+.footer__list {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+    // justify-content: space-between;
+}
+
+.footer__item {
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 25px;
+
+    a {
+        color: var(--text--color);
+    }
+}
+
+
+
+.footer__item:active{
+    a{
+
+        @include list-active;
+    }
+   
+}
